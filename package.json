@@ -1,0 +1,17 @@
+{
+  "name": "cyberglove-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Stanislav Sidletskyi <stanislav.sidletsky@gmail.com> (https://github.com/sidletski/)",
+  "license": "ISC",
+  "dependencies": {
+    "@serialport/parser-readline": "^9.0.7",
+    "ahrs": "^1.3.0",
+    "serialport": "^9.2.3",
+    "ws": "^8.2.2"
+  }
+}

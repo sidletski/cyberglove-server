@@ -1,0 +1,13 @@
+{
+  "ws": {
+    "port": 9000
+  },
+  "board": {
+    "baudrate": 115200
+  },
+  "imu": {
+    "sampleRate": 100,
+    "order": ["accel", "gyro", "mag"]
+  },
+  "logInput": false
+}
